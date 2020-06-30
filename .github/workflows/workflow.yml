@@ -24,4 +24,4 @@ jobs:
         name: 'Update Repo'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-        run: 'stargazed --username  "itsnewt" --token ${GITHUB_TOKEN} --repo "stars" --message "Update repository." --sort'
+        run: 'stargazed --username  "newtykins" --token ${GITHUB_TOKEN} --repo "stars" --message "Update repository." --sort'
